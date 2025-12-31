@@ -50,7 +50,8 @@ El objetivo específico del proyecto se basó en diseñar una arquitectura ETL r
 <a name="arquitectura"></a>
 ## 🏗️ Arquitectura de Datos
 El proyecto fue construido bajo un pipeline end-to-end automatizado que extrae los datos financieros más recientes de las empresas alojados en un servidor y compartidos a través de datos.gov.co. Se realiza la petición para consumo de datos y los devuelve a través de la API  en formato JSON.
-<img width="1408" height="768" alt="Gemini_Generated_Image_o3l8eho3l8eho3l8" src="https://github.com/user-attachments/assets/64649cef-08b0-44ef-bb0e-084d8a0de72a" />
+<img width="1315" height="445" alt="Gemini_Generated_Image_o3l8eho3l8eho3l8" src="https://github.com/user-attachments/assets/81140b3f-91b5-4ff8-b279-23f85ba19a55" />
+
 
 
 
