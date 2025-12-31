@@ -10,13 +10,14 @@ Este proyecto ha sido creado con el propósito de obtener valor sobre los datos 
 ![API](https://img.shields.io/badge/API-REST-orange?style=for-the-badge&logo=api&logoColor=white)
 
 ## Índice
-1. Diccionario de campos
+1. [Diccionario de campos](#diccionario)
 1. Propósito del proyecto
 2. [Arquitectura de Datos](#arquitectura)
 3. [Instalación y Uso](#instalación)
 4. [Análisis y Hallazgos](#análisis)
 
 ## 📂 Diccionario de campos
+<a name="diccionario"></a>
 
 | Campo (Interfaz) | Nombre Técnico (API) | Tipo | Descripción |
 | :--- | :--- | :--- | :--- |
