@@ -43,7 +43,8 @@ Este proyecto ha sido creado con el propósito de obtener valor sobre los datos 
 
 <a name="directorio"></a>
 ## 📁 Directorio
-```Colombia-status-corporate-10k/
+```
+Colombia-status-corporate-10k/
 ├── dashboard/
 │   ├── capturas/             # Screenshots del tablero interactivo
 │   └── reporte_final.pbix    # Archivo fuente de Power BI
@@ -53,7 +54,8 @@ Este proyecto ha sido creado con el propósito de obtener valor sobre los datos 
 │   └── etl_pipeline.py       # Script principal: API → Limpieza → Modelo Estrella → MySQL
 ├── .gitignore                # Exclusión de archivos temporales y locales
 ├── README.md                 # Documentación principal del proyecto
-└── requirements.txt          # Dependencias necesarias```         
+└── requirements.txt          # Dependencias necesarias
+```  
 
 <a name="proposito"></a>
 ## 💡 Propósito del proyecto
@@ -78,7 +80,7 @@ Se realiza ingeniería de características mediante la creación de columnas que
 En esta estapa se normaliza el dataframe en cinco tablas dimensiones, configurando un **esquema estrella** con cinco tablas dimensiones y una tabla de hechos que contiene columnas numéricas y claves foráneas. <br>
 Se exportan las tablas al data warehouse MySQL a través del motor de SQLAlchemy. <br>
 
-**3. Data warehouse**: Luego del data cleansing, se almacenan los datos en la base de datos de MySQL permitiendo realizar 9 consultas relevantes para el análisis exploratorio de los datos y probar la eficacia del modelo de datos previo a la exportación de las tablas a Power BI.
+**3. Data warehouse**: Luego del data cleansing, se almacenan los datos en la base de datos de MySQL permitiendo realizar 9 consultas relevantes para el análisis exploratorio de los datos y probar la eficacia del modelo de datos previo a la exportación de las tablas a Power BI. Puedes ver el análisis en MySQL aquí.
 
 
 
