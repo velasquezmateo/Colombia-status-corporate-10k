@@ -43,7 +43,7 @@ Este proyecto ha sido creado con el propósito de obtener valor sobre los datos 
 
 <a name="directorio"></a>
 ## 📁 Directorio
-'''Colombia-status-corporate-10k/
+```Colombia-status-corporate-10k/
 ├── dashboard/
 │   ├── capturas/             # Screenshots del tablero interactivo
 │   └── reporte_final.pbix    # Archivo fuente de Power BI
@@ -53,7 +53,7 @@ Este proyecto ha sido creado con el propósito de obtener valor sobre los datos 
 │   └── etl_pipeline.py       # Script principal: API → Limpieza → Modelo Estrella → MySQL
 ├── .gitignore                # Exclusión de archivos temporales y locales
 ├── README.md                 # Documentación principal del proyecto
-└── requirements.txt          # Dependencias necesarias'''         
+└── requirements.txt          # Dependencias necesarias```         
 
 <a name="proposito"></a>
 ## 💡 Propósito del proyecto
