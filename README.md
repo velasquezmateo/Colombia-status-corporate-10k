@@ -43,18 +43,17 @@ Este proyecto ha sido creado con el propósito de obtener valor sobre los datos 
 
 <a name="directorio"></a>
 ## 📁 Directorio
-
 Colombia-status-corporate-10k/
-├── src/
-│   └── etl_pipeline.py       # ETL en Python
-├── sql/
-│   └── queries_negocio.sql   # Consultas de negocio
 ├── dashboard/
-│   ├── reporte_final.pbix    # archivo de Power BI
-│   └── capturas/             
-├── requirements.txt          # Librerías
-├── .gitignore                # Archivos basura
-└── README.md                 
+│   ├── capturas/             # Screenshots del tablero interactivo
+│   └── reporte_final.pbix    # Archivo fuente de Power BI
+├── sql/
+│   └── queries_negocio.sql   # Consultas estratégicas (Análisis de datos)
+├── src/
+│   └── etl_pipeline.py       # Script principal: API → Limpieza → Modelo Estrella → MySQL
+├── .gitignore                # Exclusión de archivos temporales y locales
+├── README.md                 # Documentación principal del proyecto
+└── requirements.txt          # Dependencias necesarias         
 
 <a name="proposito"></a>
 ## 💡 Propósito del proyecto
