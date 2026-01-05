@@ -65,28 +65,29 @@ En general, la mayoría de las departamento poseen un nivel Medio. Pese a esto, 
 | Vichada | 22.22% | 🟢 Riesgo Bajo |
 <br>
 ### 5. (Venture capital) Encontrar las empresas cuyos ingresos crecieron por encima del percentil 95 en su respectivo macrosector (outliers)
-Esta consulta filtra las empresas que superan el percentil 95 de su propio macrosector al cierre del año 2024. Estas empresas crecieron significativamente más que sus competidores, lo que las categoriza como empresas outliers de alto rendimiento, a menudo por modelos de negocio innovadores o ventajas tecnológicas. 
-<br>
-| Industria       | Rank | Empresa                                                                 | Tasa de crecimiento(%)    |
-|-----------------|------|-------------------------------------------------------------------------|---------|
-| 🥑 Agropecuario | 1    | Camposol Colombia SAS                                                    | 200.0   |
-| 🥑 Agropecuario | 2    | Sociedad De Comercializacion Internacional Calafate SAS                  | 112.5   |
-| 🥑 Agropecuario | 3    | Bananeras Agrofuturo SAS                                                | 100.0   |
-| 🛒 Comercio     | 1    | CI Golden Agri-Resources Colombia SAS                                    | 600.0   |
-| 🛒 Comercio     | 2    | Prolife Biotech Colombia SAS                                             | 425.0   |
-| 🛒 Comercio     | 3    | Sociedad De Comercializacion Internacional De Negocios Naranja Y Tecnologia Financiera SAS BIC | 400.0   |
-| 🏗️ Construcción | 1    | China Harbour Engineering Company Limited Colombia                       | 580.0   |
-| 🏗️ Construcción | 2    | Byb Constructores SAS                                                   | 350.0   |
-| 🏗️ Construcción | 3    | Concesionaria Vial Del Pacifico SAS                                     | 315.38  |
-| 🏭 Manufactura  | 1    | Odin Petroil SA En Reestructuracion                                     | 344.44  |
-| 🏭 Manufactura  | 2    | Alambres Y Cables Tecnicos SAS                                           | 250.0   |
-| 🏭 Manufactura  | 3    | Panamericana De Alimentos SAS                                           | 216.67  |
-| ⛏️ Minero       | 1    | Puerto Arturo SAS                                                        | 400.0   |
-| ⛏️ Minero       | 2    | Mkms Enerji Sucursal Colombia                                           | 220.0   |
-| ⛏️ Minero       | 3    | Promisol SAS                                                            | 83.33   |
-| 🧩 Servicios   | 1    | Micro Inversiones SAS                                                   | 1900.0  |
-| 🧩 Servicios   | 2    | Greenyellow Energia De Colombia SAS                                      | 1000.0  |
-| 🧩 Servicios   | 3    | Latin Logistic Colombia SAS                                             | 850.0   |
+Esta consulta filtra las empresas que superan el percentil 95 de su propio macrosector al cierre del año 2024. Estas empresas crecieron significativamente más que sus competidores, lo que las categoriza como empresas outliers de alto rendimiento, a menudo por modelos de negocio innovadores o ventajas tecnológicas. <br>
+| Industria       | Rank | Empresa                                                                 | Tasa de crecimiento (%) |
+|-----------------|------|-------------------------------------------------------------------------|------------------------|
+| 🥑 Agropecuario | 1    | Camposol Colombia SAS                                                    | 200.0                  |
+| 🥑 Agropecuario | 2    | Sociedad De Comercializacion Internacional Calafate SAS                  | 112.5                  |
+| 🥑 Agropecuario | 3    | Bananeras Agrofuturo SAS                                                | 100.0                  |
+| 🛒 Comercio     | 1    | CI Golden Agri-Resources Colombia SAS                                    | 600.0                  |
+| 🛒 Comercio     | 2    | Prolife Biotech Colombia SAS                                             | 425.0                  |
+| 🛒 Comercio     | 3    | Sociedad De Comercializacion Internacional De Negocios Naranja          | 400.0                  |
+| 🏗️ Construcción | 1    | China Harbour Engineering Company Limited Colombia                       | 580.0                  |
+| 🏗️ Construcción | 2    | Byb Constructores SAS                                                   | 350.0                  |
+| 🏗️ Construcción | 3    | Concesionaria Vial Del Pacifico SAS                                     | 315.38                 |
+| 🏭 Manufactura  | 1    | Odin Petroil SA En Reestructuracion                                     | 344.44                 |
+| 🏭 Manufactura  | 2    | Alambres Y Cables Tecnicos SAS                                           | 250.0                  |
+| 🏭 Manufactura  | 3    | Panamericana De Alimentos SAS                                           | 216.67                 |
+| ⛏️ Minero       | 1    | Puerto Arturo SAS                                                        | 400.0                  |
+| ⛏️ Minero       | 2    | Mkms Enerji Sucursal Colombia                                           | 220.0                  |
+| ⛏️ Minero       | 3    | Promisol SAS                                                            | 83.33                  |
+| 🧩 Servicios   | 1    | Micro Inversiones SAS                                                   | 1900.0                 |
+| 🧩 Servicios   | 2    | Greenyellow Energia De Colombia SAS                                      | 1000.0                 |
+| 🧩 Servicios   | 3    | Latin Logistic Colombia SAS                                             | 850.0                  | <br>
+
+
 
 *\*Nota: Top 3 de empresas outliers por macrosector* <br>
 
