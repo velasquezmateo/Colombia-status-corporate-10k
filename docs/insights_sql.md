@@ -65,8 +65,7 @@ En general, la mayoría de las departamento poseen un nivel Medio. Pese a esto, 
 | Vichada | 22.22% | 🟢 Riesgo Bajo |
 <br>
 ### 5. (Venture capital) Encontrar las empresas cuyos ingresos crecieron por encima del percentil 95 en su respectivo macrosector (outliers)
-Esta consulta filtra las empresas que superan el percentil 95 de su propio macrosector al cierre del año 2024. Estas empresas crecieron significativamente más que sus competidores, lo que las categoriza como empresas outliers de alto rendimiento, a menudo por modelos de negocio innovadores o ventajas tecnológicas.
-<br>
+Esta consulta filtra las empresas que superan el percentil 95 de su propio macrosector al cierre del año 2024. Estas empresas crecieron significativamente más que sus competidores, lo que las categoriza como empresas outliers de alto rendimiento, a menudo por modelos de negocio innovadores o ventajas tecnológicas. <br>
 | Empresa | Macrosector | Endeudamiento (%) | Año |
 |--------|-------------|------------------|-----|
 | Camposol Colombia SAS | Agropecuario | 200.00 | 2024 |
