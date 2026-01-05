@@ -34,11 +34,10 @@ A pesar de estar inscritas en esta lista de las 10.000 empresas con mayores ingr
 |----------------------|----------------------|-----------------------------------|-----------------|----------------------|-------------------------|
 | Co Internet SAS | Colombia Telecomunicaciones SA ESP - Telefonica | Compañia Nacional De Levaduras Levapan SA | Compunet SA | Construcciones El Condor SA | Constructora Conconcreto SA |
 | Directv Colombia Limitada | Durman Colombia SAS | Emerald Energy Plc Sucursal Colombia | Experts Colombia SAS | Fabricato SA | Ferrovial Construccion SA Sucursal Colombia |
-| Ford Motor Colombia SAS | Fundacion Delamujer Colombia SAS | Garces Eder SAS |  |  |  |
-<br>
+| Ford Motor Colombia SAS | Fundacion Delamujer Colombia SAS | Garces Eder SAS |  |  |  | <br>
 *\*Nota: Muestra del total de empresas en quiebra técnica* <br>
 
-### 4. 4.Calcular el índice de endeudamiento promedio por departamento
+### 4.Calcular el índice de endeudamiento promedio por departamento
 
 El índice de endeudamiento (Total Pasivos/Total Activos) mide qué tanta parte de la empresa pertenece a terceros (bancos, proveedores, impuestos) en lugar de a los dueños. Al promediarlo por departamento, descubrí qué regiones tienen economías más arriesgadas y cuáles son más sólidas al categorizarlos de la siguiente manera:
 <br>
@@ -65,5 +64,29 @@ En general, la mayoría de las departamento poseen un nivel Medio. Pese a esto, 
 | Amazonas | 31.55% | 🟢 Riesgo Bajo |
 | Vichada | 22.22% | 🟢 Riesgo Bajo |
 <br>
+### 5. (Venture capital) Encontrar las empresas cuyos ingresos crecieron por encima del percentil 95 en su respectivo macrosector (outliers)
+Esta consulta filtra las empresas que superan el percentil 95 de su propio macrosector al cierre del año 2024. Estas empresas crecieron significativamente más que sus competidores, lo que las categoriza como empresas outliers de alto rendimiento, a menudo por modelos de negocio innovadores o ventajas tecnológicas.
+<br>
+| Empresa | Macrosector | Endeudamiento (%) | Año |
+|--------|-------------|------------------|-----|
+| Camposol Colombia SAS | Agropecuario | 200.00 | 2024 |
+| Sociedad De Comercializacion Internacional Calafate SAS | Agropecuario | 112.50 | 2024 |
+| Bananeras Agrofuturo SAS | Agropecuario | 100.00 | 2024 |
+| CI Golden Agri-Resources Colombia SAS | Comercio | 600.00 | 2024 |
+| Prolife Biotech Colombia SAS | Comercio | 425.00 | 2024 |
+| Sociedad De Comercializacion Internacional De Negocios Naranja Y Tecnologia Financiera SAS Bic | Comercio | 400.00 | 2024 |
+| China Harbour Engineering Company Limited Colombia | Construcción | 580.00 | 2024 |
+| Byb Constructores SAS | Construcción | 350.00 | 2024 |
+| Concesionaria Vial Del Pacifico SAS | Construcción | 315.38 | 2024 |
+| Odin Petroil SA En Reestructuracion | Manufactura | 344.44 | 2024 |
+| Alambres Y Cables Tecnicos SAS | Manufactura | 250.00 | 2024 |
+| Panamericana De Alimentos SAS | Manufactura | 216.67 | 2024 |
+| Puerto Arturo SAS | Minero | 400.00 | 2024 |
+| Mkms Enerji Sucursal Colombia | Minero | 220.00 | 2024 |
+| Promisol SAS | Minero | 83.33 | 2024 |
+| Micro Inversiones SAS | Servicios | 1900.00 | 2024 |
+| Greenyellow Energia De Colombia SAS | Servicios | 1000.00 | 2024 |
+| Latin Logistic Colombia SAS | Servicios | 850.00 | 2024 | <br>
+*\*Nota: Top 3 de empresas outliers por macrosector* <br>
 
 
