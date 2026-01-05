@@ -21,3 +21,49 @@ La consulta identificó 30 empresas con crecimiento en sus utilidades durante lo
 | Samaria Llanos Exploration Sucursal Colombia | Soluciones Bolivar SAS | Sporty City SAS | Suramerica Comercial SAS | Torrecafe Aguila Roja Y Compañia SA | Wework Colombia SAS |
 <br>
 
+### 3. ¿Qué empresas tienen Patrimonio negativo a lo largo de los años entre 2021-2024?
+Este análisis identifica a las empresas cuyo patrimonio ha decrecido a niveles negativos durante el marco temporal entre 2021-2024.
+<br>
+**Por qué es crítico para inversionistas y el Estado:**
+<br>
+**Riesgo de Continuidad**: Estas empresas operan bajo una estructura de "quiebra técnica". Para un inversionista, representan un riesgo total de pérdida de capital.<br>
+**Intervención regulatoria**: La Supersociedades debe encargarse de la reorganización empresarial de estas empresas. Algunas de ellas ya están en estos trámites para hacer efectiva su liquidación. <br>
+A pesar de estar inscritas en esta lista de las 10.000 empresas con mayores ingresos o capital reportado, es muy probable que se mantengan operativas mediante la dependencia crítica de endeudamiento o de inyecciones constantes de capital de sus matrices para mantenerse activas. <br>
+
+| Acerias Paz De Rio SA | Almacenes Flamingo SA | Andean Tower Partners Colombia SAS | Bbi Colombia SAS | Bigfoot Colombia SAS | Cementos Tequendama SAS |
+|----------------------|----------------------|-----------------------------------|-----------------|----------------------|-------------------------|
+| Co Internet SAS | Colombia Telecomunicaciones SA ESP - Telefonica | Compañia Nacional De Levaduras Levapan SA | Compunet SA | Construcciones El Condor SA | Constructora Conconcreto SA |
+| Directv Colombia Limitada | Durman Colombia SAS | Emerald Energy Plc Sucursal Colombia | Experts Colombia SAS | Fabricato SA | Ferrovial Construccion SA Sucursal Colombia |
+| Ford Motor Colombia SAS | Fundacion Delamujer Colombia SAS | Garces Eder SAS |  |  |  |
+<br>
+*\*Nota: Muestra del total de empresas en quiebra técnica* <br>
+
+### 4. 4.Calcular el índice de endeudamiento promedio por departamento
+
+El índice de endeudamiento (Total Pasivos/Total Activos) mide qué tanta parte de la empresa pertenece a terceros (bancos, proveedores, impuestos) en lugar de a los dueños. Al promediarlo por departamento, descubrí qué regiones tienen economías más arriesgadas y cuáles son más sólidas al categorizarlos de la siguiente manera:
+<br>
+🔴 Riesgo Alto (>70%): Departamentos con alta dependencia del crédito. Ante una subida de tasas de interés, estas regiones son las primeras en entrar en crisis.<br>
+🟡 Riesgo Medio (40-70%): Estructuras de capital equilibradas, comunes en sectores de manufactura y comercio.<br>
+🟢 Riesgo Bajo (<40%): Regiones con empresas muy sólidas o que se autofinancian. Tienen mayor "colchón" para resistir épocas de vacas flacas.
+<br>
+En general, la mayoría de las departamento poseen un nivel Medio. Pese a esto, ientras que regiones como el Amazonas, Vichada y San Andrés muestran un apalancamiento conservador (riesgo bajo), Vaupés y Montería representan empresas con fragilidad estructural para llevar a cabo sus operaciones (riesgo alto).
+<br>
+| Departamento | Endeudamiento Promedio (%) | Clasificación de Riesgo |
+|-------------|----------------------------|--------------------------|
+| Vaupés | 100.00% | 🔴 Riesgo Alto |
+| Montería | 75.00% | 🔴 Riesgo Alto |
+| --- | --- | --- |
+| Guaviare | 61.76% | 🟡 Medio |
+| Atlántico | 59.92% | 🟡 Medio |
+| Sucre | 59.06% | 🟡 Medio |
+| Caquetá | 58.73% | 🟡 Medio |
+| Cundinamarca | 57.18% | 🟡 Medio |
+| Bogotá DC | 56.85% | 🟡 Medio |
+| Risaralda | 55.64% | 🟡 Medio |
+| --- | --- | --- |
+| San Andrés y Providencia | 36.40% | 🟢 Riesgo Bajo |
+| Amazonas | 31.55% | 🟢 Riesgo Bajo |
+| Vichada | 22.22% | 🟢 Riesgo Bajo |
+<br>
+
+
