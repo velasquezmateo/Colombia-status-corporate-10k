@@ -10,14 +10,14 @@ Aquí se detallan los resultados obtenidos en base a las consultas realizadas en
 *\*Nota: Ejemplo del resultado de la consulta realizada* <br>
 
 ### 2. ¿Qué empresas que han tenido un crecimiento positivo en su ganancia_perdida durante todos los años registrados?
-La consulta identificó 30 empresas con crecimiento en sus utilidades durante los años 2021-2024. En un mercado volátil como el colombiano, estas organizaciones demuestran eficiencia operativa y traslado de costos al cliente sin perder margen.
-**Aplicación estratégica**: Para inversionistas de capital de riesgo interesados en el mercado colombiano, esta consulta puede ofrecerles una mirada específica hacia estas empresas económicamente sostenibles con el propósito de diversificar su capital.
+La consulta identificó 30 empresas con crecimiento en sus utilidades durante los años 2021-2024. En un mercado volátil como el colombiano, estas organizaciones demuestran eficiencia operativa y traslado de costos al cliente sin perder margen. <br>
+**Aplicación estratégica**: Para inversionistas de capital de riesgo interesados en el mercado colombiano, esta consulta puede ofrecerles una mirada específica hacia estas empresas económicamente sostenibles con el propósito de diversificar su capital. <br>
 
-Columna 1,Columna 2,Columna 3,Columna 4,Columna 5
-Automotores Toyota Colombia SAS,Bel Star SA,Cfc Gas Holding SAS,Colombia Movil SA ESP,Comercial Nutresa SAS
-Distribuidora Colombina Ltda,Empresa Colombiana De Cementos SAS,Grupo Argos SA,Grupo Bolivar SA,Gyplac SA
-Hoteles Estelar SA,Industria Colombiana De Motos Yamaha,Industrias Electromecanicas Magnetron,Interconexión Eléctrica SA ESP,Kopps Commercial SAS
-Macfer Sca,Mc Victorias Tempranas SAS,Miniso Colombia SAS,Oleoducto Central SA,Organizacion Delima SA Chc
-Pintuco Colombia SAS,Plural Comunicaciones SAS,Productos Familia SA,Rappi SAS,Samaria Llanos Exploration
-Soluciones Bolivar SAS,Sporty City SAS,Suramerica Comercial SAS,Torrecafe Aguila Roja Y Cia,Wework Colombia SAS
+| Automotores Toyota Colombia SAS | Bel Star SA | Cfc Gas Holding SAS | Colombia Movil SA E S P | Comercial Nutresa SAS | Distribuidora Colombina Limitada |
+|--------------------------------|-------------|--------------------|------------------------|----------------------|----------------------------------|
+| Empresa Colombiana De Cementos SAS | Grupo Argos SA | Grupo Bolivar S A | Gyplac SA | Hoteles Estelar SA | Industria Colombiana De Motocicletas Yamaha SA |
+| Industrias Electromecanicas Magnetron SAS | Interconexión Eléctrica SA ESP - Isa | Kopps Commercial SAS | Macfer Sca | Mc Victorias Tempranas SAS | Miniso Colombia SAS |
+| Oleoducto Central SA | Organizacion Delima SA Chc | Pintuco Colombia SAS | Plural Comunicaciones SAS | Productos Familia SA | Rappi SAS |
+| Samaria Llanos Exploration Sucursal Colombia | Soluciones Bolivar SAS | Sporty City SAS | Suramerica Comercial SAS | Torrecafe Aguila Roja Y Compañia SA | Wework Colombia SAS |
+<br>
 
