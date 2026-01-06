@@ -1,5 +1,5 @@
 ## 📈 Análisis financiero de las 10.000 empresas más grande de Colombia 
-Aquí se detallan los resultados obtenidos en base a las consultas realizadas en el motor de MySQL para el conjunto de datos en cuestión. Véase el código fuente [aquí](sql/consultas.sql) <br>
+Aquí se detallan los resultados obtenidos en base a las consultas realizadas en el motor de MySQL para el conjunto de datos en cuestión. Véase el código fuente [aquí](Colombia-status-corporate-10k/sql/consultas.sql) <br>
 
 ### 1. ¿Cuáles son los 3 sectores en cada departamento que ofrecen el mayor ROE promedio?
 **Hallazgos claves**<br>
