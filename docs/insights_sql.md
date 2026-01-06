@@ -89,7 +89,7 @@ Esta consulta filtra las empresas que superan el percentil 95 de su propio macro
 | 🧩 Ser | 2  | Greenyellow Energia Colombia SAS       | 1000.0   |
 | 🧩 Ser | 3  | Latin Logistic Colombia SAS            | 850.0    | 
 
-<br>
+
 *\*Nota: Top 3 de empresas outliers por macrosector* <br>
 
 **El Fenómeno de Servicios**: Es impactante observar que en el sector Servicios, el crecimiento llega hasta un 1900% (Micro Inversiones SAS), lo cual es típico de modelos de base tecnológica. <br>
@@ -132,9 +132,10 @@ Con base en esto se filtra las empresas con dominancia mayor al 50% de captació
 | Agrícola del Occidente     | Cauca        | Agropecuario  |
 | Juanthosa Red              | Vaupés       | Servicios     |
 | Riopaila Palma             | Vichada      | Agropecuario  |
+
 Estas son empresas que fijan precios en sus respectivos sectores y territorios. Son mercados de un solo jugador.
 <br>
-Las siguientes empresas representan posiciones de dominio elevado, no son las únicas, pero capturan el mayor porcentaje:
+A su vez, estas empresas representan posiciones de dominio elevado, no son las únicas, pero capturan el mayor porcentaje en sus zonas:
 
 | Empresa                 | Departamento | Sector        | Captura del Sector |
 |-------------------------|--------------|---------------|--------------------|
@@ -157,8 +158,34 @@ Dentro de este ratio se hallan algunas conclusiones relevantes: <br>
 1. Los departamentos con mayor productividad en una gran proporción no alojan ciudades capitales. Esto, en conjunto con los resultados evidenciados en la pregunta 7 reflejan alto monopolio y muy poca presencia de competidores fuertes, lo cual hace a estas empresas ubicados aquí muy rentables.<br>
 2. Los deptos con ciudades capitales como Cundinamarca, Antioquia, El Atlántico y el Valle tienen productividad media, debido a una mayor presencia de organizaciones.
 3. Solo existe un dpto con baja productividad (Vichada). Es importante que el gobierno nacional establezca mecanismos que impulsen el sector económico de esta región.
-   
-`
+
+### 9. (Mapa de competitividad) Con base en la rotación de activos y la matriz BCG, ¿en qué departamentos de Colombia es más estratégico invertir según el macrosector económico
+La inversión estratégica ocurre donde la productividad de la infraestructura es alta y el posicionamiento de mercado es dominante (Estrellas). Este análisis permite recomendar ubicaciones específicas para nuevos proyectos de expansión o inversión de capital basado en el año 2024.<br>
+
+Esta consulta especifica cuáles son los departamentos de Colombia que obtienen mayores ingresos con sus activos en cada uno de los sectores del estudio.<br>
+
+| Macrosector        | Departamento | Rotación de Activos | Clasificación              |
+|--------------------|--------------|---------------------|----------------------------|
+| 🛒 Comercio        | Chocó        | 8.50                | 🚀 Máxima Productividad    |
+| 🛒 Comercio        | Casanare     | 4.00                | 🟢 Alta productividad      |
+| 🏭 Manufactura    | Caquetá      | 3.00                | 🟢 Alta productividad      |
+| 🧩 Servicios      | Vaupés       | 3.00                | 🟢 Alta productividad      |
+| ⛏️ Minero         | Bolívar      | 2.29                | 🟢 Alta productividad      |
+| 🥑 Agropecuario   | Nariño       | 2.25                | 🟢 Alta productividad      |
+| 🛒 Comercio        | Bogotá DC    | 1.52                | 🟢 Alta productividad      |
+| 🏭 Manufactura    | Antioquia    | 1.09                | 🟢 Alta productividad      |
+| 🏗️ Construcción   | Bogotá DC    | 0.32                | 🔴 Baja productividad      |
+| 🧩 Servicios      | Antioquia    | 0.32                | 🔴 Baja productividad      |
+
+*\*Nota: Esta es una muestra del total de departamentos por el total de macrosectores* <br>
+
+**Análisis de Competitividad Estratégica**
+
+Al analizar estos 10,000 registros de las principales empresas para el año 2024 , surgen conclusiones que desafían la intuición común:
+1. El Fenómeno del Comercio en la Periferia: El Chocó lidera la eficiencia en Comercio (8.5). Esto indica que en zonas con poca infraestructura, el capital fluye con extrema rapidez; las empresas poseen muy pocos activos fijos (locales, bodegas) pero mueven inventarios constantemente.
+2. Construcción: El peso de las capitales: Es revelador que en Bogotá (0.3) y Antioquia (0.35) la construcción tenga "Baja productividad". Esto se debe a que en las grandes ciudades los activos (terrenos y maquinaria pesada) son extremadamente costosos, lo que "infla" el denominador y baja el ratio de rotación.
+3. Manufactura Sólida: Antioquia y Bogotá logran mantenerse en "Alta productividad" (>1.0) a pesar de ser industrias pesadas. Esto demuestra una madurez operativa: logran vender más de lo que tienen invertido en planta y equipo.
+4. Servicios en Regiones Emergentes: Departamentos como Vaupés (3.0) y Arauca (2.0) son "joyas ocultas" para servicios. Al ser negocios basados en talento humano y no en maquinaria, su retorno sobre activos es explosivo.
 
 
 
