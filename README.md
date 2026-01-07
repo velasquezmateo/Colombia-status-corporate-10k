@@ -1,5 +1,7 @@
 <h3 align="center"> 🏭 Situación financiera de las 10.000 empresas más grandes de Colombia </h3>
 
+<img width="554" height="170" alt="Sin título" src="https://github.com/user-attachments/assets/f261927b-56d1-4e58-ba6e-562704f415e0" />
+
 ## 🎯 Descripción del Proyecto
 Este proyecto ha sido creado con el propósito de obtener valor sobre los datos financieros de las 10.000 empresas más grandes de Colombia. Esta información es ofrecida por la Superintendencia de Sociedades, la cual reporta de forma anual los balances financieros de las 10.000 con mayor relevancia económica para un período específico comprendido entre los años 2021 a 2024. El objetivo es identificar factores relevantes y tendencias relacionadas con su distribución geográfica, macrosector y año de estudio, agregando a su vez al análisis indicadores económicos claves que permitan generar una "radiografía" de su estados contables.
 
@@ -59,7 +61,7 @@ Colombia-status-corporate-10k/
 
 <a name="proposito"></a>
 ## 💡 Propósito del proyecto
-El objetivo específico del proyecto se basó en diseñar una arquitectura ETL robusta que extrajo los datos crudos en formato JSON. Además, se creó un esquema estrella que desnormalizó los datos para respetar su integridad, eliminar redundancias y optimizar mejor las consultas con el fin de generar información accionable que permita tomar decisiones acertadas a las partes interesadas. El resultado final es un ecosistema automatizado que permite visualizar el panorama empresarial colombiano y responder preguntas estratégicas como:
+El objetivo específico del proyecto se basó en diseñar una arquitectura ETL robusta que extrajo los datos crudos en formato JSON. Además, se creó un esquema estrella que normalizó los datos para respetar su integridad, eliminar redundancias y optimizar mejor las consultas con el fin de generar información accionable que permita tomar decisiones acertadas a las partes interesadas. El resultado final es un ecosistema automatizado que permite visualizar el panorama empresarial colombiano y responder preguntas estratégicas como:
 
   🧮 ¿Qué empresas han tenido un crecimiento positivo en su ganancia durante todos los años registrados? <br>
   🥇 En cada ciudad, ¿qué porcentaje de los ingresos totales de su sector captura la empresa líder? <br>
@@ -72,7 +74,7 @@ El proyecto fue construido bajo un pipeline end-to-end automatizado que extrae l
 
 El viaje del dato:
 
-**1. Ingesta(Extract)**: Se consume la API de Socrata de la web datos.gov.co mediante la librería Request de Python garantizando la extracción total de 40.000 registros. <br>
+**1. Ingesta(Extract)**: Se consume la API de Socrata de la web datos.gov.co mediante la librería Requests de Python garantizando la extracción total de 40.000 registros. <br>
 A partir de ahí, los datos se almacenan en una tabla estructurada gracias a la conversión de datos en formato JSON a Dataframe que ofrece la librería Pandas de Python. <br>
 
 **2. Procesamiento y modelado**: Se castean los datos a tipo númerico para el caso de columnas con cifras. También se eliminan duplicados y se estandarizan las columnas tipo texto.
@@ -80,7 +82,7 @@ Se realiza ingeniería de características mediante la creación de columnas que
 En esta estapa se normaliza el dataframe en cinco tablas dimensiones, configurando un **esquema estrella** con cinco tablas dimensiones y una tabla de hechos que contiene columnas numéricas y claves foráneas. <br>
 Se exportan las tablas al data warehouse MySQL a través del motor de SQLAlchemy. <br>
 
-**3. Data warehouse**: Luego del data cleansing, se almacenan los datos en la base de datos de MySQL permitiendo realizar 9 consultas relevantes para el análisis exploratorio de los datos y probar la eficacia del modelo de datos previo a la exportación de las tablas a Power BI. Puedes ver el análisis en MySQL [aquí](docs/insights_sql.md).
+**3. Data warehouse**: Luego del data cleansing, se almacenan los datos en la base de datos de MySQL permitiendo realizar 9 consultas relevantes para el análisis exploratorio de los datos y probar la eficacia del modelo de datos previo a la exportación de las tablas a Power BI. Puedes ver el análisis en la base de datos MySQL [aquí](docs/insights_sql.md).
 
 
 
