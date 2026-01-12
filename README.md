@@ -1,11 +1,11 @@
-<h3 align="center"> 🏭 Situación financiera de las 10.000 empresas más grandes de Colombia </h3>
+<h3 align="center"> 🏭 Situación financiera de las 15.000 empresas más grandes de Colombia </h3>
 
 <p align="center">
   <img width="554" height="170" alt="Sin título" src="https://github.com/user-attachments/assets/f261927b-56d1-4e58-ba6e-562704f415e0" />
 </p>
 
 ## 🎯 Descripción del Proyecto
-Este proyecto ha sido creado con el propósito de obtener valor sobre los datos financieros de las 10.000 empresas más grandes de Colombia. Esta información es ofrecida por la Superintendencia de Sociedades, la cual reporta de forma anual los balances financieros de las 10.000 con mayor relevancia económica para un período específico comprendido entre los años 2021 a 2024. El objetivo es identificar factores relevantes y tendencias relacionadas con su distribución geográfica, macrosector y año de estudio, agregando a su vez al análisis indicadores económicos claves que permitan generar una "radiografía" de su estados contables.
+Este proyecto ha sido creado con el propósito de obtener valor sobre los datos financieros de las 15.000 empresas más grandes de Colombia. Esta información es ofrecida por la Superintendencia de Sociedades, la cual reporta de forma anual los balances financieros de las 15.000 con mayor relevancia económica para un período específico comprendido entre los años 2021 a 2024. El objetivo es identificar factores relevantes y tendencias relacionadas con su distribución geográfica, macrosector y año de estudio, agregando a su vez al análisis indicadores económicos claves que permitan generar una "radiografía" de su estados contables.
 
 ## 🛠️ Stack Tecnológico
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
