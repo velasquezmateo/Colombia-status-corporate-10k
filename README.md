@@ -123,11 +123,11 @@ https://github.com/user-attachments/assets/99f66c46-e293-4a25-b8dd-63512dba3ce4
 
 **Apalancamiento**: El panel identifica sectores con alta dependencia de deuda para mantener sus operaciones activas. Valores mayores a 2 reflejan organizaciones que recurren a la deuda para potenciar sus operaciones generando eficiencia para la empresa con el fin de captar ingresos (ventas) con sus recursos (activos).<br>
 
-### 🏁 Conclusión y Próximos Pasos
+## 🏁 Conclusión y Próximos Pasos
 Este proyecto demuestra la capacidad de transformar datos financieros masivos (10,000+ empresas) en una herramienta de decisión estratégica. La arquitectura de datos fue optimizada para mantener la fluidez del reporte sin sacrificar el detalle granular.<br>
 Esta arquitectura mantiene la puerta abierta a futuras actualizaciones por parte de los órganos de control y vigilancia que anualmente comparten los estados financieros de las empresas más grandes del país. <br>
 
-### 📩 Contacto
+## 📩 Contacto
 Si tienes alguna duda sobre la lógica financiera aplicada o quieres colaborar en proyectos similares, ¡no dudes en contactarme!<br>
 
 <div align="center">
