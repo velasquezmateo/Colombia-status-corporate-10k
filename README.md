@@ -113,8 +113,7 @@ Se exportan las tablas al data warehouse MySQL a través del motor de SQLAlchemy
 **3. Data warehouse**: Luego del data cleansing, se almacenan los datos en la base de datos de MySQL permitiendo realizar 9 consultas relevantes para el análisis exploratorio de los datos y probar la eficacia del modelo de datos previo a la exportación de las tablas a Power BI. Puedes ver el análisis en la base de datos MySQL [aquí](docs/insights_sql.md).
 
 
-
-
+https://github.com/user-attachments/assets/53254fb4-5470-4d51-851a-f85d148c1bc1
 
 
 
