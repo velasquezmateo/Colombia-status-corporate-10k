@@ -90,9 +90,20 @@ A partir de ahí, los datos se almacenan en una tabla estructurada gracias a la 
  - ROE
  - Multiplicador del capital
 <br>
-Por último se eliminan algunas irrelevantes para el análisis. <br>
 
-En esta estapa se crea un modelo de datos mediante un **esquema estrella** con cinco tablas dimensiones y una tabla de hechos que contiene columnas numéricas y claves foráneas. <br>
+- **Deduplicación de datos**: <br>
+Limpieza y Deduplicación de Datos Para garantizar la calidad de la base de datos de empresas, se implementó un proceso de **Fuzzy String Matching** utilizando la librería PolyFuzz. Esto permitió identificar y agrupar variaciones de nombres de empresas (ej. "Empresa S.A." vs "Empresa SA") que el ojo humano detecta pero que un sistema tradicional vería como registros diferentes.<br>
+
+```
+datos_originales=empresas['nombre_limpio'].unique().tolist()
+rapid_fuzz=RapidFuzz(n_jobs=-1)
+model=PolyFuzz(rapid_fuzz)
+model.match(datos_originales,datos_originales)
+model.group(link_min_similarity=0.94)
+clusters=model.get_clusters()
+```
+
+Posteriormente se crea un modelo de datos mediante un **esquema estrella** con cinco tablas dimensiones y una tabla de hechos que contiene columnas numéricas y claves foráneas. <br>
 Se exportan las tablas al data warehouse MySQL a través del motor de SQLAlchemy. <br>
 
 <p align="center">
