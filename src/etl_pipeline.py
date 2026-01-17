@@ -179,7 +179,7 @@ fact_table=fact_table.drop(columns=['Razon_social',
 
 #Crear la conexión con la base de datos
 user='root'
-password='Caesar_mysql'
+password=''
 host=''
 puerto='3306'
 database='empresas'
