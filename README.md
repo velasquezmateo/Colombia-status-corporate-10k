@@ -5,7 +5,7 @@
 </p>
 
 ## 🎯 Descripción del Proyecto
-Este proyecto ha sido creado con el propósito de obtener valor sobre los datos financieros de las 15.000 empresas más grandes de Colombia. Esta información es ofrecida por la Superintendencia de Sociedades, la cual reporta de forma anual los balances financieros de las 15.000 con mayor relevancia económica para un período específico comprendido entre los años 2021 a 2024. El objetivo es identificar factores relevantes y tendencias relacionadas con su distribución geográfica, macrosector y año de estudio, agregando a su vez al análisis indicadores económicos claves que permitan generar una "radiografía" de su estados contables.
+Este proyecto ha sido creado con el propósito de obtener valor sobre los datos financieros de las más de 10.000 empresas más grandes de Colombia. Esta información es ofrecida por la Superintendencia de Sociedades, la cual reporta de forma anual los balances financieros de las 15.000 con mayor relevancia económica para un período específico comprendido entre los años 2021 a 2024. El objetivo es identificar factores relevantes y tendencias relacionadas con su distribución geográfica, macrosector y año de estudio, agregando a su vez al análisis indicadores económicos claves que permitan generar una "radiografía" de su estados contables.
 
 ## 🛠️ Stack Tecnológico
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
